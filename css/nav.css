@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    width: 100%;
+    background: transparent;
+    justify-content: space-between;
+    padding: 10px 5px;
+    position: fixed;
+    top: 0;
+}
+
+.nav_logo span{
+  font-size: 25px;  
+  font-weight: 700;
+}
+.nav_buttons {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 10px;
+}
+.nav_buttons button{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.scrolled{
+    background: black;
+}
